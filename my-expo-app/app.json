@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Sudoku",
+    "slug": "sudoku",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/sudoku_logo.png",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/sudoku_logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.lucasht.sudoku"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d0a35dd1-baea-48bc-bdb0-62334e43ec80"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d0a35dd1-baea-48bc-bdb0-62334e43ec80"
+    }
+  }
+}
